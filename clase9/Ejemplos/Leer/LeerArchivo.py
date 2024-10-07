@@ -7,3 +7,6 @@ with open(nombre_archivo, "r") as archivo:
     contenido_completo = archivo.read()
     print(contenido_completo)
     print("-" * 40)
+    
+# Paso 3: Leer el archivo línea por línea
+with open(nombre_archivo,"r") as archivo:
